@@ -5,7 +5,7 @@
     "license": "zeemo",
     "autoload": {
         "psr-4": {
-            "Zeemo\\Gptai\\": "packages/zeemo/gptai/src/"
+            "Zeemo\\Gptai\\": "src/"
         }
     },
     "authors": [
