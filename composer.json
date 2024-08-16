@@ -1,0 +1,25 @@
+{
+    "name": "zeemo/gptai",
+    "description": "You can create the to-do-list of your task",
+    "type": "library",
+    "license": "zeemo",
+    "autoload": {
+        "psr-4": {
+            "Zeemo\\Gptai\\": "packages/zeemo/gptai/src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Niraj"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},   
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Zeemo\\Gptai\\Providers\\GptaiServiceProvider"
+            ]
+        }
+    }
+}
