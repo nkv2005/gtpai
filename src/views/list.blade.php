@@ -1,7 +1,7 @@
 @extends('zeemo.gptai.app')
 @section('content')
     @if(isset($task))
-        <h3>Edit : </h3>
+        <h3>Edit Tag: </h3>
         <form method="POST" action="{{ route('task.update', $task->id) }}">
             @method('PATCH')
     @else
