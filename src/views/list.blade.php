@@ -5,7 +5,7 @@
         <form method="POST" action="{{ route('task.update', $task->id) }}">
             @method('PATCH')
     @else
-        <h3>Add New Tag : </h3>
+        <h3>Add Tag : </h3>
         <form method="POST" action="{{ route('task.store') }}">
     @endif
         @csrf
